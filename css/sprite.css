@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 31px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-fb_h {
+    width: 31px;
+    height: 30px;
+    background-position: -46px -5px;
+}
+
+.sprite-tw {
+    width: 31px;
+    height: 30px;
+    background-position: -87px -5px;
+}
+
+.sprite-tw_h {
+    width: 31px;
+    height: 30px;
+    background-position: -128px -5px;
+}
+
+.sprite-vk {
+    width: 32px;
+    height: 30px;
+    background-position: -169px -5px;
+}
+
+.sprite-vk_h {
+    width: 32px;
+    height: 30px;
+    background-position: -211px -5px;
+}
