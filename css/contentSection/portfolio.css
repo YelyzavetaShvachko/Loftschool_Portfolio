@@ -1,0 +1,77 @@
+.main-portfolio{
+    width: 720px;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+    text-align: right;
+
+}
+.career__title-portfolio{
+    margin: 0 0 30px 22px;
+}
+.portfolio__list{
+    padding-left: 20px;
+    text-align: left;
+}
+.portfolio__link{
+    text-decoration: none;
+
+}
+.portfolio__item{
+    display: inline-block;
+    width: 220px;
+    min-height: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:0  20px  20px 0;
+    vertical-align: top;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.portfolio__item:nth-child(3n+3){
+    margin: 0 0 20px 0;
+}
+
+.portfolio__description{
+    min-height: 110px;
+    background: #FFF;
+  padding: 20px;
+
+}
+.portfolio__description-title{
+    font-weight: 400;
+    color: #4dc8e6;
+    font-size: 21px;
+}
+.portfolio__description-text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #414141;
+
+}
+.portfolio__description-type{
+    font-size: 14px;
+    font-weight: 600;
+    color: #aeaeae;
+    margin-top: 20px;
+}
+.portfolio__description-type i{
+    font-size: 18px;
+}
+
+.portfolio__picture{
+    height: 172px;
+    width: 220px;
+    background-size:cover;
+
+}
+.portfolio__picture-1{
+    background-image: url(../../img/bg1.png);
+}.portfolio__picture-2{
+    background-image: url(../../img/bg2.png);
+}.portfolio__picture-3{
+    background-image: url(../../img/bg3.png);
+}.portfolio__picture-4{
+    background-image: url(../../img/bg4.png);
+}.portfolio__picture-5{
+    background-image: url(../../img/bg5.png);
+}
