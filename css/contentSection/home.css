@@ -1,0 +1,64 @@
+.home__wrapper{
+    font-family:'open_sanssemibold', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/geometry2.png');
+    position: relative;
+    text-align: center;
+    font-size: 0;
+
+}
+.home__wrapper::before{
+    content: "";
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.home__content{
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+
+
+}
+.home__img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -70px auto 0;
+
+}
+.home__img img {
+    width: 100%;
+}
+.home__name {
+    color: #414141;
+    font-size: 21px;
+    font-weight: 600;
+}
+.home__button{
+    font-family: 'fira', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    height: 78px;
+    width: 300px;
+    background-color: #33c1e3;
+    border-radius: 0 0 10px 10px;
+}
+.home__button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 7px 13px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 19px;
+}
+
