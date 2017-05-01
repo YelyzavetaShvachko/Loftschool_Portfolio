@@ -33,6 +33,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin: -70px auto 0;
+    border: 1px solid #bebebe;
 
 }
 .home__img img {
@@ -42,6 +43,7 @@
     color: #414141;
     font-size: 21px;
     font-weight: 600;
+    line-height: 28px;
 }
 .home__button{
     font-family: 'fira', Arial, sans-serif;
@@ -56,7 +58,7 @@
     text-decoration: none;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
-    padding: 7px 13px;
+    padding: 10px 13px;
     border-radius: 20px;
     display: inline-block;
     margin-top: 19px;

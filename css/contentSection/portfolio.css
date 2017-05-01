@@ -1,5 +1,13 @@
+.portfolio__title{
+    text-align: left;
+    margin: 0 0 23px;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 500;
+
+}
 .main-portfolio{
-    width: 720px;
+    width: 700px;
     height: 100%;
     margin: 0;
     display: inline-block;
@@ -10,8 +18,8 @@
     margin: 0 0 30px 22px;
 }
 .portfolio__list{
-    padding-left: 20px;
     text-align: left;
+    padding: 0;
 }
 .portfolio__link{
     text-decoration: none;
@@ -34,7 +42,8 @@
 .portfolio__description{
     min-height: 110px;
     background: #FFF;
-  padding: 20px;
+    padding: 15px 18px;
+
 
 }
 .portfolio__description-title{
@@ -52,7 +61,7 @@
     font-size: 14px;
     font-weight: 600;
     color: #aeaeae;
-    margin-top: 20px;
+    margin-top: 11px;
 }
 .portfolio__description-type i{
     font-size: 18px;

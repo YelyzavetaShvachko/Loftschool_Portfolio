@@ -2,10 +2,9 @@
 .career-info .main__wrapper{
     text-align: left;
 }
-
-
-.career-info .main__photo{
-border-radius: 9px;
+.main__photo-career{
+    margin-left: 0;
+    border-radius: 9px;
 }
 .career-info .main__photo img{
     height: 100%;
@@ -13,9 +12,6 @@ border-radius: 9px;
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-}
-.career-info .main__photo_wrapper{
-    margin: 0;
 }
 .career__list{
     margin: 0;
@@ -28,13 +24,15 @@ border-radius: 9px;
     font-size: 35px;
     line-height: 38px;
     font-weight: 500;
-    margin: 6px 0 16px;
+    margin: 9px 0 13px;
+
 }
 .career{
     font-size: 18px;
     width: 60%;
     display: inline-block;
     text-align: right;
+    margin-top: 11px;
 }
 .career-info{
     
@@ -42,9 +40,10 @@ border-radius: 9px;
 .career__item{
    list-style: none;
     width: 380px;
+    line-height: 26px;
     background: #ffffff;
     text-align: left;
-    padding: 15px;
+    padding: 18px 18px 11px 18px;
     border-radius: 9px;
     margin-bottom: 20px;
     display: inline-block;
@@ -67,7 +66,7 @@ border-radius: 9px;
 .career__job{
     font-size: 21px;
     color: #5a5a5a;
-    margin: 0 0 5px;
+    margin: 0;
     font-weight: 500;
 }
 .career__position{
@@ -75,13 +74,15 @@ border-radius: 9px;
     font-weight: 300;
 }
 .career_year{
+    width: 38px;
+    text-align: right;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -62px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -74px;
     margin: auto;
-    height: 15px;
     font-size: 14px;
+    
 }
 .career_year::after{
     content: '';
@@ -91,9 +92,11 @@ border-radius: 9px;
     display: block;
     border-radius: 50%;
     position: absolute;
-    bottom: -5px;
     right: -25px;
     border: 5px solid #f6f6f6;
+    bottom: 0;
+    top: 0;
+    margin: auto;
 }
 .career__item:hover .career_year::after{
     border-color: #94e0f2;
@@ -104,20 +107,22 @@ border-radius: 9px;
     width: 1px;
     background: #dddddd;
     position: absolute;
-    left: -20px;
+    left: -22px;
 
 }
 .career__item::before{
-    top:-7px;
+    top:-10px;
 
 }
 .career__item::after{
-    bottom: -13px;
+    bottom: -10px;
 
 }
 .career__item:hover .career_year{
     color: #33c1e3;
     font-weight: bold;
+    font-size: 18px;
+
 }
 .career__item:first-child::before{
      content: none;

@@ -1,5 +1,6 @@
 .main{
-    width: 73%;
+    /*width: 73%;*/
+    width: 700px;
     display: inline-block;
     font-size: 18px;
     vertical-align: top;
@@ -10,20 +11,14 @@
     font-size: 0;
     text-align: right;
 }
-.main__photo_wrapper{
-    display: inline-block;
-    vertical-align: top;
-    width: 40%;
-    margin-top: 10px;
-    text-align: left;
-
-}
 .main__photo {
     width: 220px;
     height: 220px;
     overflow: hidden;
     border-radius: 50%;
     display: inline-block;
+    vertical-align: top;
+    margin: 11px 60px 0 40px;
 }
 .main__photo img {
     width: 100%;
@@ -31,14 +26,14 @@
 }
 .main__info{
     display: inline-block;
-    width: 56%;
+    width: 380px;
     font-size: 18px;
     text-align: left;
 }
 .info__title{
     font-weight:500;
     font-size: 35px;
-    margin: 2px 4px 12px;
+    margin: 2px 0 12px;
 }
 .info__text{
     height: 319px;
